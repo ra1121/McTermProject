@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#202020</color>
+    <color name="colorPrimaryDark">#202020</color>
+    <color name="colorAccent">#202020</color>
+    <color name="colorLightGreen">#8BC34A</color>
+    <color name="colorLightPurple">#BB36A2</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorOranges">#f37735</color>
+    <color name="white">#FFFFFF</color>
+    <color name="colorBrown">#c0ca33</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorBlackText">#202020</color>
+
+    <color name="color_bg">#1C1C1C</color>
+
+</resources>

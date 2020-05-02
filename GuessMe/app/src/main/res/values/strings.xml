@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">GuessMe</string>
+    <string name="lbl_guess_the_place">Guess the place</string>
+    <string name="lbl_guess_the_company_logo">Guess the company logo</string>
+    <string name="lbl_select_category">Select Category</string>
+    <string name="guess_logo">GuessMe</string>
+    <string name="lbl_hint_new_line">Hint!\n</string>
+    <string name="lbl_answer">Answer!</string>
+    <string name="lbl_answer_new_line">Answer!\n</string>
+    <string name="lbl_hint">Hint!</string>
+    <string name="lbl_tap_hint_button">Tap to hint button to view hint!</string>
+    <string name="msg_no_more_guesses">No more guesses</string>
+</resources>

@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_bg"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linearMain"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/layout_toolbar" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtTurns"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/d15dp"
+                android:fontFamily="@font/grobold"
+                android:gravity="center"
+                android:maxLines="2"
+                android:paddingStart="@dimen/d15dp"
+                android:paddingEnd="@dimen/d15dp"
+                android:text="@string/guess_logo"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/_18ssp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.5"
+                android:gravity="center"
+                android:padding="@dimen/_25sdp">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="306dp"
+                    android:layout_height="231dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/bg"
+                    android:elevation="10dp"
+                    android:gravity="center"
+                    app:cardCornerRadius="8dp">
+
+                    <ImageView
+                        android:id="@+id/imgGuessChallenge"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:padding="@dimen/_5sdp"
+                        android:scaleType="fitXY" />
+
+                </androidx.cardview.widget.CardView>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.5"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:id="@+id/layoutReady"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:layout_gravity="center"
+                        android:layout_margin="@dimen/d20dp"
+                        android:gravity="center"
+                        android:visibility="visible">
+
+                        <TextView
+                            android:id="@+id/txtHint"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/woodfordbourne_regular"
+                            android:gravity="center"
+                            android:text="Tap on hint button to view hint!"
+                            android:textColor="@color/colorOranges"
+                            android:textSize="@dimen/_17ssp" />
+
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center|bottom"
+                        android:orientation="vertical">
+
+
+                        <LinearLayout
+                            android:id="@+id/layoutButton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/d20dp"
+                            android:orientation="horizontal"
+                            android:visibility="visible">
+
+
+                            <RelativeLayout
+                                android:id="@+id/layoutHint"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginEnd="@dimen/d10dp"
+                                android:layout_marginRight="@dimen/d10dp"
+                                android:layout_weight="1"
+
+                                android:background="@drawable/bg_white"
+                                android:gravity="center">
+
+
+                                <TextView
+                                    android:id="@+id/txtHintButton"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="@dimen/_40sdp"
+                                    android:layout_marginStart="@dimen/d15sp"
+                                    android:layout_marginLeft="@dimen/d15sp"
+                                    android:fontFamily="@font/grobold"
+                                    android:gravity="center"
+                                    android:text="Hint!"
+                                    android:textColor="@color/color_bg"
+                                    android:textSize="@dimen/_15sdp" />
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                android:id="@+id/layoutDone"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginStart="@dimen/d10dp"
+                                android:layout_marginLeft="@dimen/d10dp"
+                                android:layout_weight="1"
+                                android:background="@drawable/bg_white"
+                                android:gravity="center">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="@dimen/_40sdp"
+                                    android:layout_marginStart="@dimen/d15dp"
+                                    android:layout_marginLeft="@dimen/d15dp"
+                                    android:fontFamily="@font/grobold"
+                                    android:gravity="center"
+                                    android:text="Next"
+                                    android:textColor="@color/color_bg"
+                                    android:textSize="@dimen/_15sdp" />
+                            </RelativeLayout>
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_bg"
+    tools:context=".SplashActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_50sdp"
+            android:fontFamily="@font/grobold"
+            android:gravity="center"
+            android:text="@string/app_name"
+            android:textStyle="bold"
+            android:layout_marginBottom="@dimen/_25sdp"
+            android:textColor="@color/colorLightGreen"
+            android:textSize="@dimen/_22ssp" />
+
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="@dimen/_10sdp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/woodfordbourne_bold"
+        android:text="Copyright © 2020 By Raian"/>
+</RelativeLayout>

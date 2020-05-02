@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_bg"
+    android:orientation="vertical"
+    tools:context=".CategoryActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="@dimen/d30dp"
+        android:layout_marginEnd="@dimen/d30dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_50sdp"
+            android:fontFamily="@font/grobold"
+            android:gravity="center"
+            android:text="@string/lbl_select_category"
+            android:textStyle="bold"
+            android:layout_marginBottom="@dimen/_25sdp"
+            android:textColor="@color/colorBrown"
+            android:textSize="@dimen/_17ssp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/bntGuessPlace"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_50sdp"
+                android:background="@drawable/bg_green"
+                android:fontFamily="@font/grobold"
+                android:gravity="center"
+                android:onClick="onClick"
+                android:text="@string/lbl_guess_the_place"
+                android:textColor="@color/colorLightGreen"
+                android:textSize="@dimen/_17ssp" />
+
+            <TextView
+                android:id="@+id/bntGuessLogo"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_50sdp"
+                android:layout_marginTop="@dimen/d20dp"
+                android:background="@drawable/bg_purple"
+                android:fontFamily="@font/grobold"
+                android:gravity="center"
+                android:onClick="onClick"
+                android:text="@string/lbl_guess_the_company_logo"
+                android:textColor="@color/colorLightPurple"
+                android:textSize="@dimen/_17ssp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

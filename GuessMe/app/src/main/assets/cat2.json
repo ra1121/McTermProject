@@ -1,0 +1,50 @@
+[
+  {
+    "logo": "https://images.unsplash.com/photo-1495242024181-f22bd6b31f3f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80",
+    "hint1": "The place sometimes considered as one of the Seven Natural Wonders.",
+    "hint2": "The place located in one of the United States",
+    "answer": "The Grand Canyon National Park"
+  },
+  {
+    "logo": "https://images.unsplash.com/photo-1555992828-ca4dbe41d294?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80",
+    "hint1": "There used to be gladiator fights in this place",
+    "hint2": "The place located in Italy",
+    "answer": "The place is Colosseum Of Rome"
+  },
+  {
+    "logo": "https://images.unsplash.com/photo-1520440229-6469a149ac59?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80",
+    "hint1": "The place is a famous cathedral church",
+    "hint2": "The place located in Italy",
+    "answer": "The place is Duomo di Milano"
+  },
+  {
+    "logo": "https://images.unsplash.com/photo-1580369289375-248d9c86d0f4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80",
+    "hint1": "The place is an Opera House",
+    "hint2": "The place located in Australia",
+    "answer": "The place is Sydney Opera House"
+  },
+  {
+    "logo": "https://images.unsplash.com/photo-1513326738677-b964603b136d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80",
+    "hint1": "This place used to be a church",
+    "hint2": "The place located in Russia",
+    "answer": "The place is Saint Basil's Cathedral"
+  },
+  {
+    "logo": "https://images.unsplash.com/photo-1552519837-47846308a0e9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80",
+    "hint1": "This place never sleeps",
+    "hint2": "The famous place is located in Manhattan!",
+    "answer": "The place is Times Square"
+  },
+  {
+    "logo": "https://images.unsplash.com/photo-1542221849870-e99da3aabd74?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80",
+    "hint1": "The place is one of the world most famous falls",
+    "hint2": "The place located in the United States",
+    "answer": "The place is Niagara falls"
+  },
+  {
+    "logo": "https://images.unsplash.com/photo-1527141774629-9f3a1c0758f2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80",
+    "hint1": "Hollywood loves to destroy this place in their movies",
+    "hint2": "The place located in the United States",
+    "answer": "The place is Golden Gate Bridge"
+  }
+]
